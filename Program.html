@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet " type="text/css" href="Style.css">
+</head>
+<body>
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+        </div>
+
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">Amravati, IN</div>
+                <div class="date" id="date">10 June (Wednesday), 2023</div>
+            </div>
+            <div class="weather-status">
+                <div class="weather" id="weather"img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="" >Clear</div>
+                <div class="temp" id="temp">34&deg;C</div>
+                <div class="min-max" id="min-max">32&deg;C (min) / 34&deg;C (max)</div>
+                <div class="feels_like" id="feels_like">14.5&deg;</div>
+                <div class="humidity" id="humidity" style="src: url(2490094.png)">55%</div>
+                <div class="wind" id="wind">88km/h</div>
+            </div>
+        </div>
+    </div>
+    <script src="Source.js"></script>
+</body>
+</html>
